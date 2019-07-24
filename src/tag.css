@@ -1,0 +1,39 @@
+.tags-container{
+    max-width: 400px;
+    margin:0 auto;
+}
+button{
+    background: #ccc;
+    font-size: 14px;
+    padding:6px 10px;
+}
+input{
+    height: 25px;;
+}
+
+.tags-container ul{
+    width:100%;
+    float: left;
+}
+
+.tags-container li{
+  list-style: none;
+  background: #ccc;
+  border-radius: 3px;
+  width: auto;
+  float: left;
+  margin:0 10px 10px 0;
+  padding:5px;
+  font-size: 13px;
+  
+}
+
+
+.tags-container span{
+    color: black;
+    font-size: 10px;
+    background: white;
+    padding:0px 4px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
